@@ -1,0 +1,48 @@
+/*Custom CSS for Bartik Custom sub-theme*/
+#logo{
+	width: 100%;
+	text-align: center;
+}
+#main-menu #main-menu-links  a{
+	border-top-right-radius: 0;
+        border-top-left-radius: 10px;
+	background: rgba(172,141,139,.6);
+	border: 2px solid rgb(132,132,132);
+	width: 204px;
+	text-align: center;
+	font-size: 22px;
+	padding: 0;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	text-shadow: none;
+	font-style: italic;
+}
+
+.page-node-edit.node-type-download .form-item-field-parent-media-und-0-target-id{
+	display: none;
+}
+#content .node .content .field-name-body .field-items .field-item>*:last-child:after{
+	content: url('/sites/default/files/rocket-ship-endflag.jpg');
+	position: absolute;
+	left: 50%;
+	margin-left:-20px;
+	display: block;
+}
+#content .node-teaser .content .field-name-body .field-items .field-item>*:last-child:after{
+	content: url('/sites/default/files/rocket-ship-endflag-teaser.jpg');
+	position: absolute;
+	left: 50%;
+	margin-left:-20px;
+	text-align: center;
+	display: block;
+}
+
+#content .node .content .field-name-body .field-items .field-item>*:last-child{
+	padding-bottom: 20px;
+	border-bottom: 1px lightgray solid;
+}
+
+/*
+.block-menu{
+	background: url('/sites/default/files/sprinkles-lightgray.png');
+}*/
+
